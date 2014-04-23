@@ -6,7 +6,7 @@ ddns for dnspod
 
 ### how to user
 + seting python file
-```
+```sh
 # replace your infomation
 sudo vim dnspod.py 
 
@@ -19,7 +19,7 @@ sudo chown root:wheel /usr/bin/dnspod
 ```
 
 + seting launch plist
-```
+```sh
 # replace your infomation, you can replace yhostc from filename and file content
 sudo vim com.yhostc.dnspod.plist
 
