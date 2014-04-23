@@ -30,3 +30,5 @@ sudo mv com.yhostc.dnspod.plist /Library/LaunchDaemons/
 sudo chown -R root:wheel /Library/LaunchDaemons/com.yhostc.dnspod.plist
 sudo chmod 644 /Library/LaunchDaemons/com.yhostc.dnspod.plist
 ```
+
++ reboot your mac
