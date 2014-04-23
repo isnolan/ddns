@@ -4,7 +4,7 @@ ddns
 ddns for dnspod
 
 
-### how to user
+### how to use
 + seting python file
 ```sh
 # replace your infomation
