@@ -6,8 +6,7 @@ import socket
 import time
 
 params = dict(
-    login_email="YOUR_USERNAME", # replace with your email
-    login_password="YOUR_PASSWORD", # replace with your password
+    login_token="YOUR_LOGIN_TOKEN", # replace with your login token
     format="json",
     domain_id=YOUR_DOMAIN_ID, # replace with your domain_od, can get it by API Domain.List
     record_id=YOUR_RECORD_ID, # replace with your record_id, can get it by API Record.List
