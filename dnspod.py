@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-import httplib, urllib
+import httplib, urllib, ssl
 import socket
 import time
 
@@ -17,6 +17,7 @@ current_ip = None
 
 def ddns(ip):
     params.update(dict(value=ip))
+    ssl._create_default_https_context = ssl._create_unverified_context
     headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/json"}
     conn = httplib.HTTPSConnection("dnsapi.cn")
     conn.request("POST", "/Record.Ddns", urllib.urlencode(params), headers)
